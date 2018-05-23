@@ -1,18 +1,36 @@
 ---
 layout: page
-title: About
+title: About me :)
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<p>
+	My name is Nima Fazeli, I am currently a PhD candidate 
+	working and studying at MIT's Mechanical Engineering 
+	Department. I focus on making robots more intelligent, 
+	specifically when they interact with the environment, 
+	how can they learn from their surrondings by touch and 
+	how can they better control these interactions.
+</p>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<p>
+	Prior to coming to MIT, I received my masters from 
+	the University of Maryland College Park, where I focused 
+	on the application of control techniques to biomedical 
+	engineering. I worked on projects ranging from 
+	Cardiovascular disease diagnostics and human hemodynamics 
+	identification to drug delivery and pharmacokinetics/pharmacodynamics.
+</p>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<p>
+	I received my bachelors degree from Amir Kabir University 
+	of Technology, my undergrad thesis was the active attenuation 
+	of the vibrations of an engine of a vehicle to its chassis. 
+</p>
 
-
-[jekyll-organization]: https://github.com/jekyll
+<p>
+	My research interests are primarily in the area of 
+	control and inference and dynamical systems and I 
+	enjoy the applying the principles of these disciplines 
+	to different fields. 
+</p>
