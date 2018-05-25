@@ -9,7 +9,7 @@ title: Nima Fazeli
 	
 	
 	<p>
-		<img src="{{site..baseurl }}/assets/IMG-1662.jpg" alt="Nima!" style="float:right;width:310px;height:400px;">
+		<img src="{{site..baseurl }}/assets/robot_shot" alt="Nima!" style="float:right;width:50%;">
 		I am a 4th year Mechanical Engineering PhD Candidate at
 		<a href="http://meche.mit.edu/" > 
 		Massachusetts Institute of Technology</a>, where I work on Inference, Modeling, and Learning algorithms applied
