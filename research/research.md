@@ -12,9 +12,9 @@ permalink: Research.html
     </h2>
     
     <p>
-		I am interested in <strong>Inference</strong>, <strong>Modeling</strong>,
-		and <strong>Simulation</strong> of <strong>Robots</strong> interacting 
-		with their <strong>Environment</strong>.
+		I am interested in <strong>Inference</strong>, <strong>Modeling/Simulation</strong>, 
+		<strong>Control</strong>, and <strong>Learning</strong> applied to 
+		<strong>Robotic Manipulation</strong>.
 		I am interested in the complex and exciting world of physical interactions,
 		these interactions are fundamental to the utility of real-world agents. Physical
 		interactions are complex because they are <strong>hybrid</strong>, which means
