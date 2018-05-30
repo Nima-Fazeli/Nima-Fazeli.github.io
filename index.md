@@ -10,12 +10,12 @@ title: Nima Fazeli
 	
 	<p>
 		<img src="{{site..baseurl }}/assets/robot_shot" alt="Nima!" style="float:right;width:50%;">
-		I am a 4th year Mechanical Engineering PhD Candidate at
-		<a href="http://meche.mit.edu/" > 
-		Massachusetts Institute of Technology</a>, where I work on Inference, 
-		Modeling, Control, and Learning algorithms applied
-		to Robotic Manipulation, the science and art of robots interacting with
-		their world.
+		I am a 4th year Mechanical Engineering PhD candidate at
+		<a href="http://meche.mit.edu/" > Massachusetts Institute of Technology</a>. 
+		I work on <strong>Inference</strong>, <strong>Modeling</strong>, 
+		<strong>Control</strong>, and <strong>Learning</strong> algorithms 
+		applied to <strong>Robotic Manipulation</strong>, 
+		the science and art of robots interacting with their world.
 		I am a member of the <a href="http://mcube.mit.edu/"> 
 		MCube Lab</a>, advised by 
 		<a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" > 
