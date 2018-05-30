@@ -12,7 +12,7 @@ permalink: Research.html
     </h2>
     
     <p>
-		I am interested in <strong>Inference</strong>, <strong>Modeling/Simulation</strong>, 
+		I work on <strong>Inference</strong>, <strong>Modeling/Simulation</strong>, 
 		<strong>Control</strong>, and <strong>Learning</strong> applied to 
 		<strong>Robotic Manipulation</strong>.
 		I am interested in the complex and exciting world of physical interactions,
