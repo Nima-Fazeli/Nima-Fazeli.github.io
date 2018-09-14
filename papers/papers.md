@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Paper
+title: 
 permalink: Publications.html
 ---
 
