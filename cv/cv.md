@@ -5,7 +5,5 @@ permalink: CV.html
 ---
 
 <div class="blurb">
-	<h1>CV</h1>
-	<h2>Education</h2>
-	<p>PhD - MIT</p>
+	<p> To be uploaded soon, check back soon. </p>
 </div><!-- /.blurb -->
