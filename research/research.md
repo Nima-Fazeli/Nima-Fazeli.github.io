@@ -182,5 +182,21 @@ permalink: Research.html
     class="button" style="vertical-align:middle"><span>Frontiers 2012</span></a>
   </p>
 <!-- Entry 2 -->
-
+  <hr>
+  <h3>
+    Cardiovascular Modeling and System Identification
+  </h3>
+  <p>
+    <img src="{{site..baseurl }}/assets/cardiac-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+  </p>
+  <p>
+    The Tube-Load (TL) model is a well established and relatively complex approximation for the human cardiovascular system. In this sequence of studies, we investigated the fidelity and identifiability of these models on first swine, then humans. In particular, we showed that these models are effective in predicting peripheral and central blood pressures and can reliably estimate the time required for a blood pressure wave to propagate along the upper or lower body conduits.
+  </p>
+  <p>
+    These studies laid the foundation to future work in which we used these models to detect anomalous stiffness or delay in wave propagation that can be indicators of cardiac health.
+  </p>
+  <p>
+    <a href="https://www.frontiersin.org/articles/10.3389/fphys.2012.00298/full"
+    class="button" style="vertical-align:middle"><span>Frontiers 2012</span></a>
+  </p>
 </div><!-- /.blurb -->
