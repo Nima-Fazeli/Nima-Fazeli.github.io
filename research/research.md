@@ -109,22 +109,19 @@ permalink: Research.html
     <img src="{{site..baseurl }}/assets/learning.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    Let's assume we have a robotic system making contact with the
-    environment, can we make inferences about the physical properties
-    (such as masses, inertias, and contact parameters) of the robotic system? Can we
-    also make inferences about the contact forces from the interaction?
+    In building computationally efficient contact models, we are forced to make assumptions that work to the detriment of precision. Further, we cannot observe or model certain details that additionally affect fidelity. In these projects, we explored the use of data-driven and data-augmented models for contact interactions. The first figure shows the 3 fold improvement in performance over the state-of-the-art models if we combine them with data-driven models.
   </p>
   <p>
-    In this project, I developed a mathematical framework that i) tells
-    us explicitly what parameters/forces are identifiable, and ii) provides
-    a formulation to compute these quantities given a time-series of observations,
-    under the assumption of rigid-body frictional interactions.
+    <img src="{{site..baseurl }}/assets/teaser-low.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    <a href="http://journals.sagepub.com/doi/abs/10.1177/0278364917698749"
-    class="button" style="vertical-align:middle"><span>IJRR </span></a>
-    <a href="https://link.springer.com/chapter/10.1007/978-3-319-60916-4_38"
-    class="button" style="vertical-align:middle"><span>ISRR </span></a>
+    In the second figure, the robot learns a rich physics model of the contact interaction between the two disks and the surface. It then uses this model to perform model-predictive control to push the second disk to a goal using the first disk. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
+  </p>
+  <p>
+    <a href="https://arxiv.org/abs/1710.05947"
+    class="button" style="vertical-align:middle"><span>CoRL 2017</span></a>
+    <a href="https://arxiv.org/abs/1808.03246"
+    class="button" style="vertical-align:middle"><span>arXiv 2018</span></a>
   </p>
 <!-- Entry 4 -->
   <hr>
@@ -132,25 +129,19 @@ permalink: Research.html
     Robotic Pick & Place
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/contact-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
+    <img src="{{site..baseurl }}/assets/ARC_w_background.png" alt="arc1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    Let's assume we have a robotic system making contact with the
-    environment, can we make inferences about the physical properties
-    (such as masses, inertias, and contact parameters) of the robotic system? Can we
-    also make inferences about the contact forces from the interaction?
+    An important challenge in warehouse automation is automating the process of finding and moving objects desired objects from one place to another. We developed an autonomous system that does exactly this and competed in the Amazon Robotics Challenge (2015-2017), with consistent top 3 placements and winning 1st place in stowing in 2017.
   </p>
   <p>
-    In this project, I developed a mathematical framework that i) tells
-    us explicitly what parameters/forces are identifiable, and ii) provides
-    a formulation to compute these quantities given a time-series of observations,
-    under the assumption of rigid-body frictional interactions.
+    The key challenge here is that the robot does not know what the majority of objects are prior to interaction. As such, it needs to understand which objects to go for, and which modality of manipulation it needs to imploy for success. Watch our video for more information.
   </p>
   <p>
-    <a href="http://journals.sagepub.com/doi/abs/10.1177/0278364917698749"
-    class="button" style="vertical-align:middle"><span>IJRR </span></a>
-    <a href="https://link.springer.com/chapter/10.1007/978-3-319-60916-4_38"
-    class="button" style="vertical-align:middle"><span>ISRR </span></a>
+    <a href="https://arxiv.org/abs/1604.03639"
+    class="button" style="vertical-align:middle"><span>arXiv 2015</span></a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/8461044/"
+    class="button" style="vertical-align:middle"><span>ICRA 2018</span></a>
   </p>
 
   <!-- Masters -->
@@ -163,27 +154,33 @@ permalink: Research.html
 		During my masters, I worked on <strong>Inference</strong>, <strong>Modeling/Simulation</strong>,
 		<strong>Control</strong>, and <strong>Learning</strong> applied to the
 		<strong>Human Cardiovascular System</strong> and <strong>pharmacodynamics/pharmacokinetics</strong>.
-		I am interested in the complex and exciting world of physical interactions,
-		these interactions are fundamental to the utility of real-world agents. Physical
-		interactions are complex because they are <strong>hybrid</strong>, which means
-		that the dynamics of the robot change as it comes into contact and whether the
-		type of contact is permitted to stick or slide. These interactions are also
-		<strong>difficult to model</strong> because of the complex nature of frictional
-		contact. Though contact is complex, it provides us with a wealth of information
-		which we can use to make <strong>inferences</strong> about the world.
+		Modeling these systems is particularly challenging but has potentially large impact in disease diagnosis and preventative medicine.
 	</p>
 
   <p>
-		I work on developing <strong>algorithms</strong> and
-		<strong>models</strong> that allow robots to intelligently and autonomously
-		interact and learn from their environment. I have worked on both
-		<strong>model-based</strong> and <strong>machine learning</strong> approaches
-		and believe there is a world in which we can combine our knowledge of physics
-		and learning approaches to garner the best of both worlds.
+		<strong>System identification</strong> and <strong>machine learning</strong> are important tools that enable us to predict and infer diseases and are critical to diagnosis. These tools enable detection of abnormalities that are central to diagnosis and preventative care.
 	</p>
 
   <p>
 		Here are some of my previous projects:
 	</p>
+  <hr>
+  <h3>
+    Estimating Cardiac Output and Peripheral Resistance
+  </h3>
+  <p>
+    <img src="{{site..baseurl }}/assets/cardiac-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+  </p>
+  <p>
+    One model for the human arterial tree is a simple lumped RC network, where the heart acts as a voltage source and the arterial tree acts as a capacitor/resistor. In this project, assuming that this model holds, we estimate the cardiac output of the heart and the peripheral resistance provided by the arterial tree using in-vivo measurements from swine.
+  </p>
+  <p>
+    In particular, in this study we showed how using a square-wave as the voltage source for the heart does a better job of estimating the cardiac output and provided a formulation for the estimation of the parameters and cardiac output.
+  </p>
+  <p>
+    <a href="https://www.frontiersin.org/articles/10.3389/fphys.2012.00298/full"
+    class="button" style="vertical-align:middle"><span>Frontiers 2012</span></a>
+  </p>
+<!-- Entry 2 -->
 
 </div><!-- /.blurb -->
