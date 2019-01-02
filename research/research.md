@@ -187,7 +187,7 @@ permalink: Research.html
     Cardiovascular Modeling and System Identification
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/cardiac-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+    <img src="{{site..baseurl }}/assets/tube-load.png" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
   </p>
   <p>
     The Tube-Load (TL) model is a well established and relatively complex approximation for the human cardiovascular system. In this sequence of studies, we investigated the fidelity and identifiability of these models on first swine, then humans. In particular, we showed that these models are effective in predicting peripheral and central blood pressures and can reliably estimate the time required for a blood pressure wave to propagate along the upper or lower body conduits.
@@ -211,7 +211,7 @@ permalink: Research.html
     Central Aortic Blood Pressure Wave-Form Estimation
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/cardiac-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+    <img src="{{site..baseurl }}/assets/tube-load-2.png" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
   </p>
   <p>
     Given the fidelity of the TL model in representing wave propagation in the human arterial, we looked at ways in which we can leverage it for diagnostics and preventative care. In the first set of studies, we investigate the blind recovery of the central aortic blood pressure from two peripheral blood pressure measurements using these models. We showed that it is possible to fully identify the TL model parameters and recover the central BP with high fidelity.
@@ -235,7 +235,7 @@ permalink: Research.html
     Pharmacodynamics/pharmacokinetics of Diabetes in Humans
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/cardiac-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+    <img src="{{site..baseurl }}/assets/tube-load-3.jpeg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
   </p>
   <p>
     Pharmacodynamics/pharmacokinetics describe the way in which medication and its effects propagate through the body. In particular, they relate the dose and time of dosage to the propagation and concentration of the medication in the body. Further, they model the effects of the medication on various end-point measures. For example, patients with diabetes consume a dosage of insulin that then affects several end-point responses.
