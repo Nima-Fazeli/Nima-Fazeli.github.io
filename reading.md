@@ -5,12 +5,17 @@ permalink: /Reading List/
 ---
 
 <p>
-	Papers I'd recommend to read (sorted into categories).
+	Below is a reading list I am in the process of compiling for researchers interested in manipulation. Please email me with suggestions for papers to add.
 </p>
 
 <!-- ****************************** -->
 <h3> Surveys: </h3>
-
+<p>
+	<a href="https://www.annualreviews.org/doi/pdf/10.1146/annurev-control-060117-104848"> "Towards Robotic Manipulation," M. Mason (2018)</a>
+</p>
+<p>
+	This paper provides an excellent introduction to robotic manipulation. The paper outlines what manipulation is from several perspectives and provides an interesting comparative perspective on engineering manipulation solutions vs biological evolution. The paper continues to discuss tool use and the key challenges in engineering manipulation. I highly this paper for anyone in the field.
+</p>
 <!-- ****************************** -->
 <h3> Contact Mechanics: </h3>
 
@@ -18,18 +23,14 @@ permalink: /Reading List/
 	<a href="https://epubs.siam.org/doi/abs/10.1137/S0036144599360110"> "Rigid-Body Dynamics with Friction and Impact," D. Stewart (2000)</a>
 </p>
 <p>
-	I highly recommend this paper if you're interesting in an easy to read introduction
-	to single-point and multi-point rigid-body contact modeling using linear complementarity
-	formulation with time-stepping. Has a lot of detail for numerical implementations and
-	uses Newton restitution model.
+	I highly recommend this paper if you're interesting in an easy to read introduction to single-point and multi-point rigid-body contact modeling using linear complementarity formulation with time-stepping. Has a lot of detail for numerical implementations and uses Newton restitution model.
 </p>
 
 <p>
 	<a href="https://pdfs.semanticscholar.org/21f2/85aef8f93d540d7fd80d59e1514d9aabbd13.pdf"> "Time-stepping for three-dimensional rigid body dynamics," M. Anitescu et al. (1999)</a>
 </p>
 <p>
-	An important companion paper to the one mentioned above. Gives a really nice modeling
-	explanation and introduces elastic contact restitution for Poission.
+	An important companion paper to the one mentioned above. Gives a really nice modeling explanation and introduces elastic contact restitution for Poission.
 </p>
 
 <!-- ****************************** -->
