@@ -3,7 +3,7 @@ layout: page
 title:
 permalink: /Reading List/
 ---
-
+<div style="font-size:small">
 <p>
 	Below is a reading list I am in the process of compiling for researchers interested in manipulation. Please email me with suggestions for papers to add.
 </p>
@@ -123,3 +123,5 @@ permalink: /Reading List/
 
 <!-- ****************************** -->
 <h3> Human Manipulation: </h3>
+
+</div>
