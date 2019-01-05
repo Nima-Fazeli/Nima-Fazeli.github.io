@@ -11,30 +11,15 @@ permalink: Research.html
   </h2>
 
   <p>
-		I work on <strong>Inference</strong>, <strong>Modeling/Simulation</strong>,
-		<strong>Control</strong>, and <strong>Learning</strong> applied to
-		<strong>Robotic Manipulation</strong>.
-		I am interested in the complex and exciting world of physical interactions,
-		these interactions are fundamental to the utility of real-world agents. Physical
-		interactions are complex because they are <strong>hybrid</strong>, which means
-		that the dynamics of the robot change as it comes into contact and whether the
-		type of contact is permitted to stick or slide. These interactions are also
-		<strong>difficult to model</strong> because of the complex nature of frictional
-		contact. Though contact is complex, it provides us with a wealth of information
-		which we can use to make <strong>inferences</strong> about the world.
+		I work on <strong>Inference</strong>, <strong>Modeling/Simulation</strong>, <strong>Control</strong>, and <strong>Learning</strong> applied to <strong>Robotic Manipulation</strong>. I am interested in the complex and exciting world of physical interactions, these interactions are fundamental to the utility of real-world agents. Physical interactions are complex because they are <strong>hybrid</strong>, which means that the dynamics of the robot change as it comes into contact and whether the type of contact is permitted to stick or slide. These interactions are also <strong>difficult to model</strong> because of the complex nature of frictional contact. Though contact is complex, it provides us with a wealth of information which we can use to make <strong>inferences</strong> about the world.
 	</p>
 
   <p>
-		I work on developing <strong>algorithms</strong> and
-		<strong>models</strong> that allow robots to intelligently and autonomously
-		interact and learn from their environment. I have worked on both
-		<strong>model-based</strong> and <strong>machine learning</strong> approaches
-		and believe there is a world in which we can combine our knowledge of physics
-		and learning approaches to garner the best of both worlds.
+		I work on developing <strong>algorithms</strong> and <strong>models</strong> that allow robots to intelligently and autonomously interact with and learn from their environment. I have worked on both <strong>model-based</strong> and <strong>machine learning</strong> approaches and believe there is a world in which we can combine our knowledge of physics and data-driven approaches to garner the best of both worlds.
 	</p>
 
   <p>
-		Here are some of the projects I have worked on:
+		Some of the projects I have worked on:
 	</p>
 <!-- Entry 1 -->
   <hr>
@@ -45,16 +30,10 @@ permalink: Research.html
 		<img src="{{site..baseurl }}/assets/inference_1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
 	</p>
   <p>
-		Let's assume we have a robotic system making contact with the
-		environment, can we make inferences about the physical properties
-		(such as masses, inertias, and contact parameters) of the robotic system? Can we
-		also make inferences about the contact forces from the interaction?
+		Let's assume we have a rigid-body system (for example a robotic manipulator) making and breaking contact with the environment. How can we infer physical properties such masses, inertias, and contact properties simultanously with contact forces? Most importantly, how can we infer these properties without breaking the trajectory into contact-free and contacting segments and individually studying each? Is there a way in which we can consider the full trajectory of the system including contacts in one framework?
 	</p>
   <p>
-		In this project, I developed a mathematical framework that i) tells
-		us explicitly what parameters/forces are identifiable, and ii) provides
-		a formulation to compute these quantities given a time-series of observations,
-		under the assumption of rigid-body frictional interactions.
+		In this project, we developed a mathematical framework that: i) tells us explicitly what parameters/forces are identifiable given the types of observations available, and ii) provides a formulation to compute these quantities given a time-series of observations under the assumption of rigid-body frictional interactions without the need to explicitly identify and enumrate contact events. This formulation yields a nonlinear optimization program that can be solved for the desired properties given noisy state measurements.
 	</p>
   <p>
     <a href="https://link.springer.com/chapter/10.1007/978-3-319-60916-4_38"
@@ -71,27 +50,16 @@ permalink: Research.html
     <img src="{{site..baseurl }}/assets/contact-1.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    Rigid-body contact models are extremely important to predicting, planning,
-    and control of robotic interactions. An important lesson we learned during the
-    parameter and force identification project was the sensitivity to the model
-    we used. We decided to compare 6 commonly used rigid-body contact models using
-    the time-stepping complementarity formulation.
+    Rigid-body contact models are extremely important to predicting, planning, and control of robotic interactions adn serve as the foundations to many simulators. An important lesson we learned during the parameter and force identification project was the variable sensitivity to the particular model choice. In light of this, we decided to compare 6 commonly used rigid-body contact models using the time-stepping complementarity formulation and evaluate their predictive abilities empircally.
   </p>
   <p>
-    In this project, I developed a principled formulation for contact model parameter
-    estimation using the Energy Ellipse. I then compared the performance of the models
-    on a data-set I collected for planar impact (publicly available). I showed the
-    issues and limitations of these models in general for contact and impact outcome
-    prediction and demonstrated the upper bound performance for this specific task.
+    In this project, we: i) developed a principled formulation for contact model parameter estimation using the Energy Ellipse, ii) compared the predictive performance of the models on an empirical planar impact data-set (publicly available), and iii) showed the challenges in model identification and issues of predictive performance, in particular by showing an empirical upper-bound on the performance of these models and a theoretical upper-bound on the task for which no model generated from the rigid-body approximation can breach. Our findings served to highlight challenges in contact modeling and that simulations are perhaps not as reliable as we hope or like to believe.
   </p>
   <p>
     <img src="{{site..baseurl }}/assets/pushing.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    I was also involved in the collection of the largest experimental planar pushing
-    data-set available in robotics. In this project, we collected planar pushing data
-    for a wide variety of interactions and objects which has found great utility in
-    the community for model learning, validation, and control.
+    Data serves as a critical component to the evaluation and development of models (whether data-driven or analytical). In a parallel project to the planar impact experiments, we collected the largest experimental planar pushing data-set available in robotics. We collected planar pushing data for a wide variety of surfaces, speeds, and objects. This data-set has found great utility in the community for model learning, validation, and controls.
   <p>
     <a href="https://ieeexplore.ieee.org/document/7989389/#full-text-section"
     class="button" style="vertical-align:middle"><span>ICRA 2017</span></a>
@@ -103,19 +71,19 @@ permalink: Research.html
 <!-- Entry 3 -->
   <hr>
   <h3>
-    Rigid-Body Contact Modeling: Learning
+    Learning Data-driven \& Data-augmented Contact Models
   </h3>
   <p>
     <img src="{{site..baseurl }}/assets/learning.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    In building computationally efficient contact models, we are forced to make assumptions that work to the detriment of precision. Further, we cannot observe or model certain details that additionally affect fidelity. In these projects, we explored the use of data-driven and data-augmented models for contact interactions. The first figure shows the 3 fold improvement in performance over the state-of-the-art models if we combine them with data-driven models.
+    Frictional interaction is a complex and difficult to model phenonemon. In building computationally efficient contact models, two key issues affect fidelity: i) we make a set of assumptions for simplification and tractability, and ii) we cannot observe or model all features necessary to capture the minute but important details of interactions. One approach to maintaing efficiency but improving fidelity is to let the data speak for itself. In these projects, we explored the use of data-driven and data-augmented models for contact interactions. In particular, we utilize combinations of analytical techniques and data to build sample-efficient and high-fidelity models that can be used for prediction or controls. The first figure shows the 3 fold improvement in predictive performance over the state-of-the-art models for planar contact if we combine them with data-driven models.
   </p>
   <p>
     <img src="{{site..baseurl }}/assets/teaser-low.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    In the second figure, the robot learns a rich physics model of the contact interaction between the two disks and the surface. It then uses this model to perform model-predictive control to push the second disk to a goal using the first disk. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
+    In the second figure, the robot uses experimental data to learn a residual (corrective) model to a physics engine for the contact interaction between the two disks and the surface. It then uses this data-augmented model to perform model-predictive control to push the second disk to a goal using the first disk. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
   </p>
   <p>
     <a href="https://arxiv.org/abs/1710.05947"
