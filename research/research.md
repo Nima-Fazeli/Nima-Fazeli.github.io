@@ -11,7 +11,7 @@ permalink: Research.html
   </h2>
 
   <p>
-		My research interest is in <strong>Inference</strong>, <strong>Modeling/Simulation</strong>, <strong>Control</strong>, and <strong>Learning</strong> applied to <strong>Robotic Manipulation</strong>. I am interested in the complex and exciting world of physical interactions, these interactions are fundamental to the utility of real-world agents. Physical interactions are complex because they are <strong>hybrid</strong>, which means that the dynamics of the robot change as it comes into contact and whether the type of contact is permitted to stick or slide. These interactions are also <strong>difficult to model</strong> because of the complex nature of frictional contact. Though contact is complex, it provides us with a wealth of information which we can use to make <strong>inferences</strong> about the world.
+		My research interests are in <strong>Inference</strong>, <strong>Modeling/Simulation</strong>, <strong>Control</strong>, and <strong>Learning</strong> applied to <strong>Robotic Manipulation</strong>. I am interested in the complex and exciting world of physical interactions, these interactions are fundamental to the utility of real-world agents. Physical interactions are complex because they are <strong>hybrid</strong>, which means that the dynamics of the robot change as it comes into contact and whether the type of contact is permitted to stick or slide. These interactions are also <strong>difficult to model</strong> because of the complex nature of frictional contact. Though contact is complex, it provides us with a wealth of information which we can use to make <strong>inferences</strong> about the world.
 	</p>
 
   <p>
