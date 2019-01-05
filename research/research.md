@@ -83,7 +83,7 @@ permalink: Research.html
     <img src="{{site..baseurl }}/assets/teaser-low.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
-    In the second figure, the robot uses experimental data to learn a residual (corrective) model to a physics engine for the contact interaction between the two disks and the surface. It then uses this data-augmented model to perform model-predictive control to push the second disk to a goal using the first disk. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
+    In the second figure, the robot uses experimental data to learn a residual (corrective) model to a physics engine for the contact interaction between the two disks and the surface. It then uses this data-augmented model to perform model-predictive control to push the second disk to a goal using the first disk. An important detail in model-predictive control is reliable long-horizon planning. The data-augmented model we developed uses a stochastic recurrent formulation which provides better accuracy in long-term prediction over the more traditional single-step models that accumulate error. The residual model is also augmented with mild domain randomization in simulation and the algorithm is able to achieve the task reliably with just 2000 samples, 1500 simulated randomizations and 500 experimental single-step pushes. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
   </p>
   <p>
     <a href="https://arxiv.org/abs/1710.05947"
