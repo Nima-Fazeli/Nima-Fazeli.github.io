@@ -8,7 +8,7 @@ title: Nima Fazeli
 	</h1>
 	<p>
 		<img src="{{site..baseurl }}/assets/robot_shot" alt="Nima!" style="float:right;width:50%;" hspace="25">
-		I am a 4th year Mechanical Engineering PhD candidate at
+		I am a 5th year Mechanical Engineering PhD candidate at
 		<a href="http://meche.mit.edu/" > Massachusetts Institute of Technology</a>.
 		I work on <strong>Inference</strong>, <strong>Modeling</strong>,
 		<strong>Control</strong>, and <strong>Learning</strong> algorithms
