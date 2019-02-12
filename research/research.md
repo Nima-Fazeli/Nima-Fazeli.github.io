@@ -18,9 +18,32 @@ permalink: Research.html
 		I develop <strong>algorithms</strong> and <strong>models</strong> that allow robots to intelligently and autonomously interact with and learn from their environment in the real-world. I have worked on both <strong>model-based</strong> and <strong>machine learning</strong> approaches and believe there is a world in which we can combine our knowledge of physics and data-driven approaches to garner the best of both worlds.
 	</p>
 
-  <p>
+<p>
 		Some of the projects I have worked on:
+</p>
+
+<!-- Entry 1 -->
+  <hr>
+  <h3>
+    Hierarchical Manipulation Skill Learning
+  </h3>
+  <p>
+		<img src="{{site..baseurl }}/assets/jenga.JPG" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
 	</p>
+  <p>
+		As humans, we are able to seamlessly integrate our senses of sight and touch to learn about our physical world. These two modalities provide complementary information, for where sight provides global but coarse information, touch provides dense and highly descriminative but very local information. Not only do we see and feel our world, but we also catagorize and build useful abstractions to facilitate our manipulation skills. For example, when interacting with a door, we may infer it is locked or open (two useful abstractions we have constructed) through how it feels and moves. In this project, we explore how to enable a robot to autonomously build useful abstractions and physics models, in the joint domain of touch and vision, for a robot learning the mechanics of Jenga.
+	</p>
+  <p>
+		Jenga captures some of the essential challenges in robotic manipulation: i) it requires sight and touch to be played, ii) it is a partial information game, iii) tower resets are expensive and time-consuming so data efficiency is critical. To touch on partial information, just from vision, it is practically impossible to tell which blocks move and which don't. This is because the mechanics of block motion are governed by micro-frictional interactions and weight distributions that are unobservable with the visual data-stream. The only way to recover necessary information is through interaction. We demonstrate that the robot is able to learn useful abstractions such as blocks that move easily or are stuck, and uses this information together with motion models to accurately and carefully extract blocks.
+	</p>
+  <p>
+    <a href="http://robotics.sciencemag.org/content/4/26/eaav3123.abstract"
+    class="button" style="vertical-align:middle"><span>Science Robotics 2019</span></a>
+    <a href="https://www.youtube.com/watch?v=o1j_amoldMs&index=5&list=FLDIQ_zHAGl9cZpanMUAC75g&t=4s"
+    class="button" style="vertical-align:middle"><span>Jenga Video 2019</span></a>
+  </p>
+
+
 <!-- Entry 1 -->
   <hr>
   <h3>
