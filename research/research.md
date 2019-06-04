@@ -17,7 +17,9 @@ permalink: Research.html
   <p>
 		I develop <strong>algorithms</strong> and <strong>models</strong> that allow robots to intelligently and autonomously interact with and learn from their environment in the real-world. I have worked on both <strong>model-based</strong> and <strong>machine learning</strong> approaches and believe there is a world in which we can combine our knowledge of physics and data-driven approaches to garner the best of both worlds.
 	</p>
-
+	<p>
+		<strong>Why Manipulation?</strong> Manipulation is key to realizing the promise of robotics: a solution to some of society's biggest challenges -- including patient care, industrial automation, and disaster response. Central to these challenges is a robot's ability to control its environment through selective contact and yet, despite its importance, manipulation is still an open problem. As robots touch their environment, they change it. The characteristic challenge in manipulation is that robots have to reason about and cause this change in partially unknown environments using noisy and incomplete sensory information. How do we build agents that reason about this change intelligently?
+	</p>
 <p>
 		Some of the projects I have worked on:
 </p>
@@ -94,19 +96,30 @@ permalink: Research.html
 <!-- Entry 3 -->
   <hr>
   <h3>
-    Learning Data-driven \& Data-augmented Contact Models
+    Learning Data-driven & Data-augmented Contact Models
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/learning.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
+    <img src="{{site..baseurl }}/assets/learning.jpg" alt="Inference1" style="float:right;width:40%;" hspace="10">
   </p>
   <p>
-    Frictional interaction is a complex and difficult to model phenonemon. In building computationally efficient contact models, two key issues affect fidelity: i) we make a set of assumptions for simplification and tractability, and ii) we cannot observe or model all features necessary to capture the minute but important details of interactions. One approach to maintaing efficiency but improving fidelity is to let the data speak for itself. In these projects, we explored the use of data-driven and data-augmented models for contact interactions. In particular, we utilize combinations of analytical techniques and data to build sample-efficient and high-fidelity models that can be used for prediction or controls. The first figure shows the 3 fold improvement in predictive performance over the state-of-the-art models for planar contact if we combine them with data-driven models.
+    Frictional interaction is a complex and difficult to model phenonemon. In building computationally efficient contact models, two key issues affect fidelity: i) we make a set of assumptions for simplification and tractability, and ii) we cannot observe or model all features necessary to capture the minute but important details of interactions.
+	</p>
+	<p>
+		Learning Corrective Contact Models for Predictive Performance:
+	</p>
+	<p>
+		One approach to maintaing efficiency but improving fidelity is to let the data speak for itself. In these projects, we explored the use of data-driven and data-augmented models for contact interactions. In particular, we utilize combinations of analytical techniques and data to build sample-efficient and high-fidelity models that can be used for prediction or controls. The first figure shows the 3 fold improvement in predictive performance over the state-of-the-art models for planar contact if we combine them with data-driven models.
+  </p>
+	<p> Learning Corrective Planar Manipulation Models for Controls:
+	</p>
+	<p>
+    <img src="{{site..baseurl }}/assets/teaser-low.jpg" alt="Inference1" style="float:right;width:40%;" hspace="10">
   </p>
   <p>
-    <img src="{{site..baseurl }}/assets/teaser-low.jpg" alt="Inference1" style="float:right;width:40%;" hspace="25">
-  </p>
-  <p>
-    In the second figure, the robot uses experimental data to learn a residual (corrective) model to a physics engine for the contact interaction between the two disks and the surface. It then uses this data-augmented model to perform model-predictive control to push the second disk to a goal using the first disk. An important detail in model-predictive control is reliable long-horizon planning. The data-augmented model we developed uses a stochastic recurrent formulation which provides better accuracy in long-term prediction over the more traditional single-step models that accumulate error. The residual model is also augmented with mild domain randomization in simulation and the algorithm is able to achieve the task reliably with just 2000 samples, 1500 simulated randomizations and 500 experimental single-step pushes. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
+    In the second figure, the goal of the robot is to guide the secondary disk to a goal position by pushing on the primary disk using its end effector -- a challenging task for which analytical models perform poorly. The robot uses experimental data to learn a residual (corrective) model to a physics engine for the contact interaction between the two disks and the surface. It then uses this data-augmented model to perform model-predictive control to push the second disk to a goal using the first disk.
+	</p>
+	<p>
+		An important detail in model-predictive control is reliable long-horizon planning. The data-augmented model we developed uses a stochastic recurrent formulation which provides better accuracy in long-term prediction over the more traditional single-step models that accumulate error. The residual model is also augmented with mild domain randomization in simulation and the algorithm is able to achieve the task reliably with just 2000 samples, 1500 simulated randomizations and 500 experimental single-step pushes. This task is an example of a difficult planar manipulation problem with many hybrid modes for which analytical models struggle.
   </p>
   <p>
     <a href="https://arxiv.org/abs/1710.05947"
@@ -126,7 +139,7 @@ permalink: Research.html
     An important challenge in warehouse automation is automating the process of finding and moving objects desired objects from one place to another. We developed an autonomous system that does exactly this and competed in the Amazon Robotics Challenge (2015-2017), with consistent top 3 placements and winning 1st place in stowing in 2017.
   </p>
   <p>
-    The key challenge here is that the robot does not know what the majority of objects are prior to interaction. As such, it needs to understand which objects to go for, and which modality of manipulation it needs to imploy for success. Watch our video for more information.
+    The key challenge here is that the robot does not know what the majority of objects are prior to interaction. As such, it needs to understand which objects to go for, and which modality of manipulation it needs to employ for success. Watch our video for more information. Building and developing robotic systems for industry has two key benefits: developing strong practical expertise and grounding research in real-world applications. The challenge provided us with a unique opportunity to understand industry needs and strengthen our relationships with our industry partners. In particular, the challenges in object state and parameter estimation in highly-cluttered and partially observable scenarios has served as inspiration for my research.
   </p>
   <p>
     <a href="https://arxiv.org/abs/1604.03639"
@@ -166,7 +179,7 @@ permalink: Research.html
     One model for the human arterial tree is a simple lumped RC network, where the heart acts as a voltage source and the arterial tree acts as a capacitor/resistor. In this project, assuming that this model holds, we estimate the cardiac output of the heart and the peripheral resistance provided by the arterial tree using in-vivo measurements from swine.
   </p>
   <p>
-    In particular, in this study we showed how using a square-wave as the voltage source for the heart does a better job of estimating the cardiac output and provided a formulation for the estimation of the parameters and cardiac output.
+    In particular, in this study we showed how using a square-wave as the voltage source for the heart does a better job of estimating the cardiac output and provided a formulation for the estimation of the parameters and cardiac output. Modeling the arterial tree using simple models gives us the ability to track cardiac health with data-efficient methods that can serve as the basis to more sophisticated diagnosis tools.
   </p>
   <p>
     <a href="https://www.frontiersin.org/articles/10.3389/fphys.2012.00298/full"
@@ -202,7 +215,7 @@ permalink: Research.html
     Central Aortic Blood Pressure Wave-Form Estimation
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/tube-load-2.png" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+    <img src="{{site..baseurl }}/assets/tube-load-2.png" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
     Given the fidelity of the TL model in representing wave propagation in the human arterial, we looked at ways in which we can leverage it for diagnostics and preventative care. In the first set of studies, we investigate the blind recovery of the central aortic blood pressure from two peripheral blood pressure measurements using these models. We showed that it is possible to fully identify the TL model parameters and recover the central BP with high fidelity.
@@ -215,6 +228,8 @@ permalink: Research.html
     class="button" style="vertical-align:middle"><span>DSMC 2012</span></a>
     <a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=1832884"
     class="button" style="vertical-align:middle"><span>CFMD 2012</span></a>
+	</p>
+	<p>
     <a href="http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=1841375"
     class="button" style="vertical-align:middle"><span>DSMC 2013</span></a>
     <a href="https://link.springer.com/article/10.1007/s11517-014-1185-3"
@@ -226,7 +241,7 @@ permalink: Research.html
     Pharmacodynamics/pharmacokinetics of Diabetes in Humans
   </h3>
   <p>
-    <img src="{{site..baseurl }}/assets/tube-load-3.jpeg" alt="Inference1" style="float:right;width:40%;" hspace="25" vspace="50">
+    <img src="{{site..baseurl }}/assets/tube-load-3.jpeg" alt="Inference1" style="float:right;width:40%;" hspace="25">
   </p>
   <p>
     Pharmacodynamics/pharmacokinetics describe the way in which medication and its effects propagate through the body. In particular, they relate the dose and time of dosage to the propagation and concentration of the medication in the body. Further, they model the effects of the medication on various end-point measures. For example, patients with diabetes consume a dosage of insulin that then affects several end-point responses.

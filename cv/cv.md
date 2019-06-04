@@ -4,6 +4,4 @@ title: CV
 permalink: CV.html
 ---
 
-<div class="blurb">
-	<p> To be uploaded soon, check back soon. </p>
-</div><!-- /.blurb -->
+<iframe src="https://drive.google.com/file/d/1VVLufmJkLMhQtcwy6OEc_9Ni2XVcgjT2/view?usp=sharing" width="100%" height="100%"></iframe>
