@@ -4,19 +4,24 @@ title: Nima Fazeli
 ---
 <div class="blurb">
 	<h1>
-	personal webpage of Nima Fazeli
+	Nima Fazeli - Personal Page
 	</h1>
 	<p>
 		<img src="{{site..baseurl }}/assets/robot_shot" alt="Nima!" style="float:right;width:50%;" hspace="25">
+	</p>
+	<p>
+	<strong>Update:</strong> I'll be joining the <a href="https://umich.edu/" target="_blank">University of Michigan, Ann Arbor</a> as an assistant professor with the <a href="https://robotics.umich.edu/" target="_blank">Robotics Institute</a> and the <a href="https://me.engin.umich.edu/" target="_blank">Mechanical Engineering Department</a> in the Fall of 2020! Visit <a href="https://robotics.umich.edu/profile/nima-fazeli/" target="_blank">our lab</a> page for more information.
+	</p>
+	<p>
 		I am a 5th year Mechanical Engineering PhD candidate at
-		<a href="http://meche.mit.edu/" > Massachusetts Institute of Technology</a>.
+		<a href="http://meche.mit.edu/" target="_blank"> Massachusetts Institute of Technology</a>.
 		I work on <strong>Inference</strong>, <strong>Modeling</strong>,
 		<strong>Control</strong>, and <strong>Learning</strong> algorithms
 		applied to <strong>Robotic Manipulation</strong>,
 		the science and art of robots interacting with their world.
-		I am a member of the <a href="http://mcube.mit.edu/">
+		I am a member of the <a href="http://mcube.mit.edu/" target="_blank">
 		MCube Lab</a>, advised by
-		<a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" >
+		<a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank">
 		Prof. Alberto Rodriguez</a>.
 	</p>
 
@@ -37,9 +42,9 @@ title: Nima Fazeli
 	</p>
 
 	<p>
-		P.S. This website was made by <a href="https://jekyllrb.com/" > Jekyll </a>
+		P.S. This website was made by <a href="https://jekyllrb.com/" target="_blank"> Jekyll </a>
 		and the source code for it is available
-		<a href="https://github.com/Nima-Fazeli/Nima-Fazeli.github.io" > here</a>,
+		<a href="https://github.com/Nima-Fazeli/Nima-Fazeli.github.io" target="_blank"> here</a>,
 		feel free to use it!
 	</p>
 </div><!-- /.blurb -->
