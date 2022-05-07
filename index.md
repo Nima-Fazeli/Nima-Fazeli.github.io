@@ -10,14 +10,10 @@ title: Nima Fazeli
 		<img src="{{site..baseurl }}/assets/robot_shot" alt="Nima!" style="float:right;width:50%;" hspace="25">
 	</p>
 	<p>
-	I'm an Assistant Professor of <a href="https://robotics.umich.edu/" target="_blank">Robotics</a> and <a href="https://me.engin.umich.edu/" target="_blank">Mechanical Engineering</a> and direct the Manipulation and Machine Intelligence <a href="https://www.mmintlab.com/" target="_blank">MMINT</a> lab.
+	I'm an Assistant Professor of <a href="https://robotics.umich.edu/" target="_blank">Robotics</a> and <a href="https://me.engin.umich.edu/" target="_blank">Mechanical Engineering</a> and direct the Manipulation and Machine Intelligence <a href="https://www.mmintlab.com/" target="_blank">MMINT</a> lab. I am broadly interested in <strong>Inference</strong>, <strong>Modeling</strong>,	<strong>Control</strong>, and <strong>Learning</strong> algorithms applied to <strong>Robotic Manipulation</strong>, the science and art of robots interacting with their world.
 	</p>
 	<p>
-		I am interested in <strong>Inference</strong>, <strong>Modeling</strong>,
-		<strong>Control</strong>, and <strong>Learning</strong> algorithms
-		applied to <strong>Robotic Manipulation</strong>,
-		the science and art of robots interacting with their world.
-		I am a member of the <a href="http://mcube.mit.edu/" target="_blank">
+		Prior to joining Michigan, I was a member of the <a href="http://mcube.mit.edu/" target="_blank">
 		MCube Lab</a>, directed by
 		<a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank">
 		Prof. Alberto Rodriguez</a>.
