@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Redirecting to https://mmintlab.com/</title>
-<meta http-equiv="refresh" content="0; URL=https://mmintlab.com/">
-<link rel="canonical" href="https://mmintlab.com/">
+<title>Redirecting to https://www.mmintlab.com/people/nima-fazeli/</title>
+<meta http-equiv="refresh" content="0; URL=https://www.mmintlab.com/people/nima-fazeli/">
+<link rel="canonical" href="https://www.mmintlab.com/people/nima-fazeli/">
 ---
 layout: default
 title: Nima Fazeli
